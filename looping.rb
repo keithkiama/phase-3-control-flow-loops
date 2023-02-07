@@ -29,9 +29,9 @@ end
 def reverse_string(str)
   reversed = ""
   str.length.times do |i|
-    reversed += str[i] 
+    reversed = str[i] + reversed
   end
   puts reversed
 end
-
+reverse_string "poggers"
 
