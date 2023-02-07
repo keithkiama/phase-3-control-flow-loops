@@ -29,7 +29,9 @@ end
 def reverse_string(str)
   reversed = ""
   str.length.times do |i|
-    reversed = str[i] + reversed
+    reversed += str[i] 
   end
   puts reversed
 end
+reverse_string "lover"
+
